@@ -1,0 +1,28 @@
+3:I[9275,[],""]
+5:I[1343,[],""]
+6:I[231,["231","static/chunks/231-bea070b1ecddfbbc.js","931","static/chunks/app/page-27ddf1a838e3fd44.js"],""]
+2:T5f9,
+Alright, our kid, buckle up for this proper mad tale about them Shadoks and their daft dating antics, yeah?
+
+
+So these Shadoks, right, they're these proper weird lookin' birds with legs comin' out their bonces. Anyroad, when it comes to pullin', they've got some right barmy ways about 'em.
+
+
+First off, the lads don't go graftin' in pubs or owt normal like that. Nah, they have this mental ritual where they bounce around on their noggins, makin' right racket. The more they bonk their heads, the more fit they reckon they look to the birds. Proper daft, if you ask me.
+
+
+Now, when a Shadok lass takes a shine to one of these head-bangin' muppets, she doesn't just say "Ay up" or nowt. She goes and nicks his pump! Dead cheeky, that. The lad's left hoppin' about on one peg, but if he's well chuffed about it, he'll chase after her, bouncin' along like a right numpty.
+
+
+If they hit it off, they don't go for a cheeky Nando's or owt sensible. Nah, they have a proper weird date where they take turns zappin' each other with these ray guns they've got. Apparently, it's dead romantic in Shadok land. Go figure, eh?
+
+
+And get this, our kid - when they decide to get hitched, they don't exchange rings. They swap their beaks! Proper gaggin', that. Imagine tryin' to have a bevvy with your missus's gob stuck on your face. Madness!
+
+
+So there you have it, mate. Them Shadoks are well and truly off their trolley when it comes to courtin'. Makes our Manc ways look dead borin' in comparison, dunnit? Proper mental, the lot of 'em!
+
+4:["slug","shadock-cult","d"]
+0:["kMaUPPjXnOgJVE7waykJX",[[["",{"children":["post",{"children":[["slug","shadock-cult","d"],{"children":["__PAGE__?{\"slug\":\"shadock-cult\"}",{}]}]}]},"$undefined","$undefined",true],["",{"children":["post",{"children":[["slug","shadock-cult","d"],{"children":["__PAGE__",{},[["$L1",["$","div",null,{"children":[["$","h1",null,{"className":"text-6xl font-bold","children":"Shadock Cult"}],["$","p",null,{"className":"mt-3 text-sm","children":"$2"}]]}],null],null],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","post","children","$4","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[null,["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","post","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/3a86203847bef503.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_1e4310 __variable_c3aa02 antialiased","children":[["$","header",null,{"className":"flex items-center justify-between p-4 bg-foreground text-background","children":["$","$L6",null,{"href":"/","children":["$","h1",null,{"className":"text-xl font-bold cursor-pointer","children":"Home"}]}]}],["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}],["$","footer",null,{"className":"p-4 bg-foreground text-background","children":["$","p",null,{"className":"text-center text-sm","children":["$","a",null,{"className":"underline","href":" https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app","target":"_blank","rel":"noopener noreferrer","children":"Powered by Vercel"}]}]}]]}]}]],null],null],["$L7",null]]]]
+7:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"The Bubbly Baker  ⋅ shadock-cult"}],["$","meta","3",{"name":"description","content":"Generated by create next app"}],["$","link","4",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}],["$","meta","5",{"name":"next-size-adjust"}]]
+1:null
