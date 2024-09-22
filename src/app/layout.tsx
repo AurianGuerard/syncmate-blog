@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import Link from "next/link";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -23,12 +24,38 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const header = (
+    <header className="flex items-center justify-between p-4 bg-foreground text-background">
+      <Link href="/">
+        <h1 className="text-xl font-bold cursor-pointer">Home</h1>
+      </Link>
+    </header>
+  );
+
+  const footer = (
+    <footer className="p-4 bg-foreground text-background">
+      <p className="text-center text-sm">
+        <a
+          className="underline"
+          href="
+        https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Powered by Vercel
+        </a>
+      </p>
+    </footer>
+  );
+
   return (
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        {header}
         {children}
+        {footer}
       </body>
     </html>
   );
