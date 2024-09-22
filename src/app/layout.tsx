@@ -25,7 +25,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   const header = (
-    <header className="flex items-center justify-between p-4 bg-foreground text-background">
+    <header className="flex items-center justify-between p-4">
       <Link href="/">
         <h1 className="text-xl font-bold cursor-pointer">Home</h1>
       </Link>
@@ -33,18 +33,8 @@ export default function RootLayout({
   );
 
   const footer = (
-    <footer className="p-4 bg-foreground text-background">
-      <p className="text-center text-sm">
-        <a
-          className="underline"
-          href="
-        https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by Vercel
-        </a>
-      </p>
+    <footer className="p-4">
+      <p className="text-center text-sm">Powered by Bergen MIJ</p>
     </footer>
   );
 
@@ -53,9 +43,11 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {header}
-        {children}
-        {footer}
+        <div className="flex justify-between bg-black text-white flex-col min-h-screen">
+          {header}
+          {children}
+          {footer}
+        </div>
       </body>
     </html>
   );
