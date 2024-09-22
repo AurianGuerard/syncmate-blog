@@ -1,25 +1,29 @@
-name: Github Page
+name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [gh-pages]
+    branches:
+      - gh-pages # Set this to your default branch
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: Set Environment Variables
-        env:
-          BASE_PATH: /react-texteditor-example
-        run: |
-          echo "" > .env.local
-          echo BASE_PATH=$BASE_PATH >> .env.local
-      - name: Create .nojekyll
-        run: touch ./out/.nojekyll
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@v4
+      - uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
         with:
-          folder: out
+          node-version: "18" # or your preferred Node.js version
+
+      - name: Install dependencies
+        run: yarn install # or yarn install --frozen-lockfile
+
+      - name: Build
+        run: yarn build # or yarn build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./out
